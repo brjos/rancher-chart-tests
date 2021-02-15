@@ -1,0 +1,25 @@
+annotations:
+  artifacthub.io/changes: |
+    - "[Fixed]: Add Overwrites to Bundle Extras"
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/prerelease: "false"
+apiVersion: v2
+dependencies:
+- name: library
+  repository: https://buttahtoast.github.io/helm-charts/
+  version: ~0.3.0
+description: Bedag's Manifest chart. Library full of basic kubernetes manifests.
+icon: https://www.bedag.ch/wGlobal/wGlobal/layout/images/logo.svg
+keywords:
+- Bedag
+- Manifests
+- Library
+maintainers:
+- email: sre@bedag.ch
+  name: SRE
+name: manifests
+sources:
+- https://github.com/bedag/helm-charts/tree/master/charts/manifests
+type: library
+version: 0.5.1
